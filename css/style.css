@@ -421,6 +421,11 @@
     height: 200px
 }
 
+.catalog-item__img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
 .catalog-item__subtitle {
     margin-top: 20px;
     color: #ffffff;
@@ -486,7 +491,7 @@
 .catalog-item__content {
     width: 50%;
     margin-right: 0;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     transition: .5s all
 }
 
@@ -514,7 +519,7 @@
 
 .catalog-item__list li {
     position: relative;
-    color: #555;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 20px
@@ -525,7 +530,7 @@
     position: absolute;
     width: 5px;
     height: 5px;
-    background-color: #583793;
+    background-color: #00fffa;
     left: -14px;
     top: 7px
 }
@@ -536,10 +541,10 @@
     left: 50%;
     transform: translateX(calc(-50% - 19px));
     display: block;
-    color: #583793;
+    color: #00fffa;
     font-size: 14px;
     font-weight: 500;
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: uppercase
 }
 

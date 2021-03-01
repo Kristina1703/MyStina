@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyStina</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+
+<section id="up" class="promo">
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo">
+                <img src="icons/mystina.svg" alt="logo">
+            </a>
+            <div class="header__official">
+                Официальный представитель
+                <span>Кристюшка</span>
+            </div>
+            <div class="header__contacts">
+                <a href="tel:+74999228974" class="header__phone">+7 (922) 846-06-00</a>
+                <button data-modal="consultation" class="button">заказать звонок</button>
+            </div>
+        </header>
+
+        <div class="promo__wrapper">
+            <h1 class="promo__header">Подбор хорошего настроения</h1>
+            <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
+
+            <div class="promo__icons">
+                <div class="promo__icon">
+                    <img src="icons/timer.png" alt="timer">
+                    Время подбора:
+                    10 - 30 минут
+                </div>
+                <!--                                <div class="promo__icon">-->
+                <!--                                    <img src="icons/hand-cart.png" alt="hand-cart">-->
+                <!--                                    Бесплатная-->
+                <!--                                    доставка-->
+                <!--                                </div>-->
+                <!--                                <div class="promo__icon">-->
+                <!--                                    <img src="icons/messages.png" alt="messages">-->
+                <!--                                    Ответим-->
+                <!--                                    на все вопросы-->
+                <!--                                </div>-->
+            </div>
+
+            <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+            <div class="promo__link">
+                или<br>
+                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="animation">
+    <div class="navigation">
+        <div class="navigation__title">Позвони мне</div>
+        <div class="wrapper"><a class="navigation__link" href=""></a><a class="navigation__link" href=""></a><a
+                class="navigation__link" href=""></a><a class="navigation__link" href=""></a></div>
+        <div class="wrapper">
+            <div class="navigation__text">
+                <span class="navigation__text-layer">интересно</span>
+                <span class="navigation__text-layer">интересно</span>
+                <span class="navigation__text-layer">интересно</span>
+            </div>
+            <div class="navigation__text">
+                <span class="navigation__text-layer">провести</span>
+                <span class="navigation__text-layer">провести</span>
+                <span class="navigation__text-layer">провести</span>
+            </div>
+            <div class="navigation__text">
+                <span class="navigation__text-layer">досуг???</span>
+                <span class="navigation__text-layer">досуг???</span>
+                <span class="navigation__text-layer">досуг???</span>
+            </div>
+            <div class="navigation__text">
+                <span class="navigation__text-layer">Хочешь</span>
+                <span class="navigation__text-layer">Хочешь</span>
+                <span class="navigation__text-layer">Хочешь</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<section class="advantages">-->
+<!--    <div class="container">-->
+<!--        <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>-->
+<!--        <div class="advantages__wrapper">-->
+<!--            <div class="advantages__item">-->
+<!--                <img src="icons/cup.png" alt="cup" class="advantages__icon">-->
+<!--                <div class="advantages__subtitle">-->
+<!--                    Делимся опытом-->
+<!--                </div>-->
+<!--                <div class="advantages__descr">-->
+<!--                    Наши сотрудники всегда готовы поделиться своим опытом,-->
+<!--                    так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="advantages__item">-->
+<!--                <img src="icons/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">-->
+<!--                <div class="advantages__subtitle">-->
+<!--                    Заботимся о здоровье-->
+<!--                </div>-->
+<!--                <div class="advantages__descr">-->
+<!--                    Мы работаем для того,-->
+<!--                    чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="advantages__item">-->
+<!--                <img src="icons/shoe.png" alt="shoe" class="advantages__icon">-->
+<!--                <div class="advantages__subtitle">-->
+<!--                    Учим бегать-->
+<!--                </div>-->
+<!--                <div class="advantages__descr">-->
+<!--                    Помогаем с обучением-->
+<!--                    правильной технике бега!<br>-->
+<!--                    Дружим с крупнейшей школой бега в России - -->
+<!--                    <a href="#">I LOVE RUNNING.</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section class="consultation">
+    <div class="container">
+        <h2 class="title title_left">
+            Получите бесплатную консультацию<br>
+            по подбору хорошего настроения
+        </h2>
+        <div class="consultation__descr">
+            Просто заполните форму заявки<br>
+            и мы перезвоним вам в течении 10 минут
+        </div>
+        <form id="consultation-form" class="feed-form" action="#">
+            <input name="name" required placeholder="Ваше имя" type="text">
+            <input name="phone" required placeholder="Ваш телефон">
+            <input name="email" required placeholder="Ваш E-mail" type="email">
+
+            <button class="button button_submit">заказать консультацию</button>
+        </form>
+    </div>
+</section>
+
+<!--<section class="carousel">-->
+<!--    <div class="container">-->
+<!--        <div class="carousel__inner">-->
+<!--            <div>-->
+<!--                <img src="img/slide_1.jpg" alt="slide">-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="img/slide_2.jpg" alt="slide">-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img src="img/slide_3.jpg" alt="slide">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section class="catalog">
+    <div class="container">
+        <h2 class="title">Каталог настроения</h2>
+        <ul class="catalog__tabs">
+            <li class="catalog__tab catalog__tab_active">
+                <div>досуг</div>
+            </li>
+            <li class="catalog__tab">
+                <div>мероприятия</div>
+            </li>
+            <li class="catalog__tab">
+                <div>поездки</div>
+            </li>
+        </ul>
+
+        <div class="catalog__content catalog__content_active">
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://gradnaneve.ru/images/r3.jpg" alt="teplohod" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Прогулка на теплоходе</div>
+                        <div class="catalog-item__descr">Прокачу тебя на теплоходе поздним вечером под разводными
+                            мостами, а потом мы вместе встретим рассвет
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list ">
+                        <li>Мы отправимся с Дворцовой набережной;
+                        </li>
+                        <li>
+                            На теплоходе нас будет ждать вкусный ужин;
+                        </li>
+                        <li>
+                            Также теплоходе будет играть живая джазовая музыка;
+                        </li>
+                        <li>
+                            На протяжении 2-х часов мы будем наслаждаться красотой ночного города и видом на разведенные мосты, а затем вернемся на берег и прогуляемся по предрассветной набережной;
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">4 499 руб.</div>
+                        <div class="catalog-item__price">2 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://i.pinimg.com/736x/6a/73/29/6a7329572cd4731894ec7ae8f0f41b4c.jpg" alt="picnic"
+                             class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Пикник</div>
+                        <div class="catalog-item__descr">Возьмем фрукты,вино и поедем к заливу встречать закат на
+                            песочке под легким бризом
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Сначала мы прогуляемся по Елагину и Крестовскому острову;
+                        </li>
+                        <li>
+                            Затем мы отправимся в Парк 300-летия;
+                        </li>
+                        <li>
+                            Мы удобно расположимся на песке у воды и будем наслаждаться пикником;
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">2 999 руб.</div>
+                        <div class="catalog-item__price">1 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://cdn5.imgbb.ru/adm/3_new/31185/46eb51cc4e270b950abaf43ae3fc2864.jpg" alt="paty"
+                             class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Девичник</div>
+                        <div class="catalog-item__descr">Сначала мы устроим с тобой spa-день, а вечером рванем на
+                            вечеринку
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Днем мы пойдем на спа-процедуры;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">5 499 руб.</div>
+                        <div class="catalog-item__price">3 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://alterainvest.ru/upload/iblock/749/74936389f35a4676891003b42abc613f.jpg"
+                             alt="bar" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Тур по барам</div>
+                        <div class="catalog-item__descr">Чтобы не скучать в белые ночи, устрою тебе незабываемое
+                            путешествие по питейным заведениям культурной столицы
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">4 999 руб.</div>
+                        <div class="catalog-item__price">2 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://a.d-cd.net/af8d836s-1920.jpg" alt="pohod" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Поход</div>
+                        <div class="catalog-item__descr">Захватим с собой палатку, еду, гитару и рванем подальше от
+                            городской суеты наслаждаться яркими созвездиями и запахом костра
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">6 999 руб.</div>
+                        <div class="catalog-item__price">4 499 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://avatars.mds.yandex.net/get-districts/750923/2a0000016b3219fe014001e519cd5d7013fc/optimize"
+                             alt="museum" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Посещение выставок и музеев</div>
+                        <div class="catalog-item__descr">Покажу тебе множество крутых творений от классики до
+                            современного искусства
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">2 999 руб.</div>
+                        <div class="catalog-item__price">1 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__content">
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://penza.ananasposter.ru/image/catalog/poster/music/87/7421.jpg" alt="korzh" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Концерт Макса Коржа</div>
+                        <div class="catalog-item__descr">Нас уже много, присоединяйся и вместе зажгем танцпол</div>
+                        <a href="#" class="catalog-item__link" style="display: none">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Мы посетим остров Канта и Рыбную деревню;
+                        </li>
+                        <li>
+                            Вы увидите аутентичные районы бывшего Кёнигсберга с сохранившейся застройкой;
+                        </li>
+                        <li>
+                            На следущий день мы отправимся на побережье Балтийского моря;
+                        </li>
+                        <li>
+                            Вы подниметесь на Дюну Эфа, с которой открывается удивительный пейзаж;
+                        </li>
+                        <li>
+                            Также мы посетим янтарный пляж и танцующий лес
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">2 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__content">
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://img-fotki.yandex.ru/get/196121/44922896.1f/0_237bbf_70b53b09_orig.jpg" alt="kld" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Калининград</div>
+                        <div class="catalog-item__descr">Старинная архитектура бывшего Кёнигсберга и нетронутая природа побережья Балтийского моря — идеальный вариант, чтобы спланировать путешествие на выходные
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Мы посетим остров Канта и Рыбную деревню;
+                        </li>
+                        <li>
+                            Вы увидите аутентичные районы бывшего Кёнигсберга с сохранившейся застройкой;
+                        </li>
+                        <li>
+                            На следущий день мы отправимся на побережье Балтийского моря;
+                        </li>
+                        <li>
+                            Вы подниметесь на Дюну Эфа, с которой открывается удивительный пейзаж;
+                        </li>
+                        <li>
+                            Также мы посетим янтарный пляж и танцующий лес
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">14 999 руб.</div>
+                        <div class="catalog-item__price">9 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://i.imgur.com/zhQnAQh.jpg" alt="vbg" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Выборг</div>
+                        <div class="catalog-item__descr">В Выборге руины шведских замков и бастионов соседствуют с имперским классицизмом, финским функционализмом и постройками советских времен</div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Вы посетите Выборгский замок;
+                        </li>
+                        <li>
+                            Вы прогуляетесь по знаменитому скальному парку Монрепо;
+                        </li>
+                        <li>
+                            Вы посетите филиал петербургского Эрмитажа;
+                        </li>
+                        <li>
+                            Также вы увидете множество средневековых архитектурных сооружений.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">4 999 руб.</div>
+                        <div class="catalog-item__price">2 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://7themes.su/php/imres/resize.php?width=1440&height=1080&cropratio=4:3&image=/_ph/55/355839974.jpg" alt="лфкудшф" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Карелия</div>
+                        <div class="catalog-item__descr">Карелия – своего рода геозаповедник. Здесь можно увидеть последствия катаклизмов, формировавших облик планеты задолго до появления людей
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list ">
+                        <li>Вы совершите восхождение на вершину горы Нуорунен;
+                        </li>
+                        <li>
+                            Вы отправитесь в путешествие по глубоководному озеру Паанаявари;
+                        </li>
+                        <li>
+                            Вы увидите три восхитительных водопада – Муткакоски, Мянтюкоски, Селькякоски;
+                        </li>
+                        <li>
+                            Вы сходите баню.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">13 999 руб.</div>
+                        <div class="catalog-item__price">8 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feed">
+    <div class="container">
+        <h2 class="title">отзывы клиентов</h2>
+        <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+            <img src="https://sun9-37.userapi.com/impf/c638430/v638430621/4b477/dpyPmFicYn0.jpg?size=1440x2160&quality=96&sign=eadad694f7edf21c2ce1994b25986847&type=album"
+                 alt="Елена Килякова" class="feed__img">
+            <div class="feed__text">
+                <div class="feed__subtitle">Елена Килякова</div>
+                <div class="feed__count">2 поездки</div>
+                <div class="feed__descr">Не знала, чем заняться на выходных в Петербурге - обратилась к Кристине. Она
+                    подобрала
+                    лучшее времяпрепровождение, которое подошло именно под мое настроение и финансовые возможности. Мы
+                    прекрасно покатались на теплоходе по Неве, Кристина сделала мне прекрасные фотографии. Осталась
+                    очень довольна уикендом!
+                    Через некоторое время решила снова приехать - не раздумывая обратилась к ней. Никогда бы не
+                    подумала, что меня так сможет впечатлить современное искусство!
+
+                </div>
+            </div>
+        </div>
+        <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+            <img src="https://sun9-25.userapi.com/impf/c849024/v849024641/1301be/r1n6uKxwBis.jpg?size=720x900&quality=96&sign=1681a2117c59ac224267154c1ede6c61&type=album"
+                 alt="Валерия Черных" class="feed__img">
+            <div class="feed__text">
+                <div class="feed__subtitle">Валерия Черных</div>
+                <div class="feed__count">1 поездка</div>
+                <div class="feed__descr">Ходила с Кристиной в тур по барам, очень понравилось! Много маленьких, но
+                    атмосферных баров посетили с безумно вкусными настойками. Очень необычный, по-своему увлекательный
+                    получился тур, много новых знакомств и воспоминаний осталось с этого вечера.
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.2993294522964!2d30.314456573187865!3d59.888245451200866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696306e6bd5a33f%3A0xa3894dc06a359232!2z0JrRgNCw0YHQvdC-0LUm0JHQtdC70L7QtQ!5e0!3m2!1sru!2sru!4v1614437684509!5m2!1sru!2sru"
+            width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <div class="footer__info">
+        <address class="footer__addr">г. Санкт-Петербург ,<br> ул. Заставская, 46к1</address>
+        <a class="footer__phone" href="tel:89228460600">+7 (922) 846-06-00</a>
+        <div class="footer__social">
+            <a href="#" class="footer__social-item"><img src="icons/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/_christooria_/" class="footer__social-item"><img
+                    src="icons/instagram.svg" alt="instagram"></a>
+            <a href="#" class="footer__social-item"><img src="icons/pinterest.svg" alt="pinterest"></a>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay">
+    <div class="modal" id="consultation">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Просто заполните форму заявки</div>
+        <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+        <form class="feed-form feed-form_mt25" action="#">
+            <input name="name" placeholder="Ваше имя" type="text">
+            <input name="phone" placeholder="Ваш телефон">
+            <input name="email" placeholder="Ваш E-mail" type="email">
+
+            <button class="button button_submit">заказать консультацию</button>
+        </form>
+    </div>
+
+    <div class="modal" id="order">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Ваш заказ:</div>
+        <div class="modal__descr"></div>
+        <form class="feed-form feed-form_mt25" action="#">
+            <input name="name" required placeholder="Ваше имя" type="text">
+            <input name="phone" required placeholder="Ваш телефон">
+            <input name="email" required placeholder="Ваш E-mail" type="email">
+
+            <button class="button button_submit">купить</button>
+        </form>
+    </div>
+
+    <div class="modal modal_mini" id="thanks">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+        <div class="modal__descr">Наш менеджер свяжется с вами
+            в ближайшее время!
+        </div>
+    </div>
+</div>
+
+<a href="#up" class="pageup">
+    <img src="icons/up.svg" alt="up">
+</a>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/kris.js"></script>
+
+
+</body>
+</html>
