@@ -32,7 +32,7 @@
 
 .container {
     max-width: 950px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .promo {
@@ -553,8 +553,8 @@
 }
 
 .feed {
-    padding-bottom: 71px;
-    background: #330735;
+    background: linear-gradient(360deg, #150000 0%, #3b0942 75.39%, #6b54c6 100%);
+    padding: 100px 0 92px 0;
 }
 
 .feed__item {
@@ -749,7 +749,7 @@
         margin-top: -5px;
     }
     .header__phone {
-        font-size: 10px;
+        font-size: 12px;
     }
     .header__official span {
         font-size: 12px;
@@ -772,10 +772,10 @@
         margin-left: 58px;
     }
     .button {
-        width: 88px;
-        height: 18px;
-        font-size: 8px;
-        margin-top: 5px;
+        width: 103px;
+        height: 24px;
+        font-size: 9px;
+        margin-top: 2px;
         background: linear-gradient(29.61deg, #c8b017 0%, #6e0094 50.39%, #340131 100%);
     }
     .button_main {
@@ -828,6 +828,9 @@
     .catalog__content_active {
         align-items: center;
         justify-content: center;
+    }
+    .feed {
+        background: linear-gradient(360deg, #150000 0%, #3b0942 87.39%, #1074a5 100%);
     }
     .feed__item {
         flex-direction: column;
