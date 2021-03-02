@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
 </head>
@@ -142,6 +143,9 @@
             Просто заполните форму заявки<br>
             и мы перезвоним вам в течении 10 минут
         </div>
+        <div class="consultation__item">
+            <i class="fas fa-heartbeat"></i>
+        </div>
         <form id="consultation-form" class="feed-form" action="#">
             <input name="name" required placeholder="Ваше имя" type="text">
             <input name="phone" required placeholder="Ваш телефон">
@@ -176,10 +180,10 @@
                 <div>досуг</div>
             </li>
             <li class="catalog__tab">
-                <div>мероприятия</div>
+                <div>поездки</div>
             </li>
             <li class="catalog__tab">
-                <div>поездки</div>
+                <div>мероприятия</div>
             </li>
         </ul>
 
@@ -400,43 +404,6 @@
             <div class="catalog-item">
                 <div class="catalog-item__wrapper">
                     <div class="catalog-item__content catalog-item__content_active">
-                        <img src="https://penza.ananasposter.ru/image/catalog/poster/music/87/7421.jpg" alt="korzh" class="catalog-item__img">
-                        <div class="catalog-item__subtitle">Концерт Макса Коржа</div>
-                        <div class="catalog-item__descr">Нас уже много, присоединяйся и вместе зажгем танцпол</div>
-                        <a href="#" class="catalog-item__link" style="display: none">ПОДРОБНЕЕ</a>
-                    </div>
-                    <ul class="catalog-item__list">
-                        <li>Мы посетим остров Канта и Рыбную деревню;
-                        </li>
-                        <li>
-                            Вы увидите аутентичные районы бывшего Кёнигсберга с сохранившейся застройкой;
-                        </li>
-                        <li>
-                            На следущий день мы отправимся на побережье Балтийского моря;
-                        </li>
-                        <li>
-                            Вы подниметесь на Дюну Эфа, с которой открывается удивительный пейзаж;
-                        </li>
-                        <li>
-                            Также мы посетим янтарный пляж и танцующий лес
-                        </li>
-                        <a href="#" class="catalog-item__back">назад</a>
-                    </ul>
-                </div>
-                <hr>
-
-                <div class="catalog-item__footer">
-                    <div class="catalog-item__prices">
-                        <div class="catalog-item__price">2 999 руб.</div>
-                    </div>
-                    <button class="button button_mini">ХОЧУ</button>
-                </div>
-            </div>
-        </div>
-        <div class="catalog__content">
-            <div class="catalog-item">
-                <div class="catalog-item__wrapper">
-                    <div class="catalog-item__content catalog-item__content_active">
                         <img src="https://img-fotki.yandex.ru/get/196121/44922896.1f/0_237bbf_70b53b09_orig.jpg" alt="kld" class="catalog-item__img">
                         <div class="catalog-item__subtitle">Калининград</div>
                         <div class="catalog-item__descr">Старинная архитектура бывшего Кёнигсберга и нетронутая природа побережья Балтийского моря — идеальный вариант, чтобы спланировать путешествие на выходные
@@ -539,6 +506,44 @@
                 </div>
             </div>
         </div>
+        <div class="catalog__content">
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="https://penza.ananasposter.ru/image/catalog/poster/music/87/7421.jpg" alt="korzh" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Концерт Макса Коржа</div>
+                        <div class="catalog-item__descr">Нас уже много, присоединяйся и вместе зажгем танцпол</div>
+                        <a href="#" class="catalog-item__link" style="display: none">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Мы посетим остров Канта и Рыбную деревню;
+                        </li>
+                        <li>
+                            Вы увидите аутентичные районы бывшего Кёнигсберга с сохранившейся застройкой;
+                        </li>
+                        <li>
+                            На следущий день мы отправимся на побережье Балтийского моря;
+                        </li>
+                        <li>
+                            Вы подниметесь на Дюну Эфа, с которой открывается удивительный пейзаж;
+                        </li>
+                        <li>
+                            Также мы посетим янтарный пляж и танцующий лес
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">2 999 руб.</div>
+                    </div>
+                    <button class="button button_mini">ХОЧУ</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -631,7 +636,7 @@
 </div>
 
 <a href="#up" class="pageup">
-    <img src="icons/up.svg" alt="up">
+    <i class="fas fa-chevron-circle-up"></i>
 </a>
 
 

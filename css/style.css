@@ -7,7 +7,7 @@
         transform: scale(1)
     }
     50% {
-        transform: scale(1.4)
+        transform: scale(1.1)
     }
     to {
         transform: scale(1)
@@ -19,7 +19,7 @@
         transform: scale(1)
     }
     50% {
-        transform: scale(1.4)
+        transform: scale(1.1)
     }
     to {
         transform: scale(1)
@@ -169,10 +169,12 @@
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
 }
 
 .button:hover {
-    background: #340131;
+    background: linear-gradient(29.61deg, #ea7c1a 0%, #6e0094 50.39%, #340131 100%);
+    opacity: 0.8;
     transition: 0.4s all;
 }
 
@@ -200,9 +202,7 @@
     width: 131px;
     height: 40px;
     font-size: 14px;
-    background: linear-gradient(
-            29.61deg
-            , #00fffa 0%, #6e0094 50.39%, #340131 100%);
+    background: linear-gradient(29.61deg, #00fffa 0%, #6e0094 50.39%, #340131 100%);
 }
 
 .advantages {
@@ -243,12 +243,20 @@
     text-decoration: underline
 }
 
-.advantages__icon_animated {
-    -webkit-animation: heartbeat 1.5s ease infinite;
-    animation: heartbeat 1.5s ease infinite
+.consultation__item i {
+    font-size: 150px;
+    margin: 41px 0px;
 }
 
-.advantages__icon_animated:hover {
+.consultation__item {
+    -webkit-animation: heartbeat 2.5s ease infinite;
+    animation: heartbeat 2.5s ease infinite;
+    margin: 0 380px;
+    width: initial;
+    height: 0;
+}
+
+.consultation__item:hover {
     -webkit-animation-play-state: paused;
     animation-play-state: paused
 }
@@ -270,8 +278,6 @@
 .consultation {
     min-height: 680px;
     padding: 100px 0 92px 0;
-    /*background: url(../img/consultation.jpg) center center/cover no-repeat*/
-    /*background-color: #23132c;*/
     background: linear-gradient(136deg, #150000 0%, #3b0942 50.39%, #6b54c6 100%););
 }
 
@@ -281,8 +287,12 @@
     font-weight: 500
 }
 
+.consultation__item i {
+    display: none;
+}
+
 .consultation .error {
-    border: 1px solid #c80454
+    border: 1px solid #6b54c6
 }
 
 .consultation label.error {
@@ -366,7 +376,7 @@
 .catalog__tab {
     width: 220px;
     height: 50px;
-    border: 2px solid #d0d0d0;
+    border: 2px solid #583793;
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
@@ -380,8 +390,8 @@
 }
 
 .catalog__tab:hover {
-    box-shadow: 3px 3px 20px #ffffff;
-    border: none
+    box-shadow: 3px 3px 20px #583793;
+    border: 2px solid #583793;
 }
 
 .catalog__tab div {
@@ -391,7 +401,6 @@
 .catalog__tab_active {
     color: #fff;
     background-color: #583793;
-    border: none
 }
 
 .catalog__content {
@@ -727,8 +736,9 @@
     height: 40px
 }
 
-.pageup img {
-    width: 100%
+i {
+    color: #583793;
+    font-size: 40px;
 }
 
 @media (max-width: 767px) {
@@ -824,6 +834,11 @@
     }
     .catalog__tab {
         margin: 9px 5px;
+        border: 2px solid #1074a5;
+    }
+    .catalog__tab:hover {
+        box-shadow: 3px 3px 20px #1074a5;
+        border: 2px solid #1074a5;
     }
     .catalog__content_active {
         align-items: center;
